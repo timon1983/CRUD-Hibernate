@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - oponjdk11.0.9
+  - openjdk11
 
 script: ./mvnw clean package
 
