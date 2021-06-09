@@ -16,7 +16,7 @@ public class User {
     private String firstName;
     @Column(name ="lastname",length = 45, nullable = false)
     private String lastName;
-    @OneToMany
+    @OneToMany(mappedBy = "user")
     private List<Post> posts;
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "region_id")

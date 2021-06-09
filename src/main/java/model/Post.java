@@ -17,6 +17,9 @@ public class Post {
     private long created;
     @Column(name = "updated",nullable = false)
     private long updated;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     public Post(String content, long created, long updated) {
         this.content = content;

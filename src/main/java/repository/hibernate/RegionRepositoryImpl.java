@@ -2,15 +2,12 @@ package repository.hibernate;
 
 import model.Region;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import repository.RegionRepository;
 
 import java.util.List;
 
 public class RegionRepositoryImpl implements RegionRepository {
-
-    //private SessionFactory sessionFactory = SessionFactoryUtil.getSessionFactory();
 
     @Override
     public Region getById(Long id) {

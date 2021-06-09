@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS regions(
 CREATE TABLE IF NOT EXISTS posts(
                     post_id serial not null,
                     primary key(post_id),
+                    user_id int references users(user_id),
                     content varchar(45) not null,
                     created int not null,
                     updated int not null);
