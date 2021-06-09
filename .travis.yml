@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - oponjdk11.0.9
+
+script: ./mvnw clean install
+
+notifications:
+  email: timon1983@yandex.ru
