@@ -2,7 +2,8 @@ language: java
 jdk:
   - openjdk11
 
-script: ./mvn clean test
+script:
+  - mvn clean test
 
 notifications:
   email: timon1983@yandex.ru
