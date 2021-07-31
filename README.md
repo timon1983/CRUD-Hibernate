@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/timon1983/CRUD-Hibernate.svg)](https://travis-ci.com/timon1983/CRUD-Hibernate)
+[![Build Status](https://travis-ci.com/timon1983/CRUD-Hibernate?branch=master.svg)](https://travis-ci.com/timon1983/CRUD-Hibernate?branch=master)
 
 # CRUD-Hibernate.
 1.Открыть проект в IntelliJ IDEA.
