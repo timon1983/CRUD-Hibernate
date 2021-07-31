@@ -1,3 +1,5 @@
+                                                                                                   [![Build Status](https://travis-ci.com/timon1983/CRUD-Hibernate.svg)](https://travis-ci.com/timon1983/CRUD-Hibernate)
+
 # CRUD-Hibernate.
 1.Открыть проект в IntelliJ IDEA.
 2.Запустить класс Main .
